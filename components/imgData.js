@@ -8,5 +8,5 @@ export const ImgData = [
     {
         image: '/img/img03.JPG'
     },
-    
+
 ]

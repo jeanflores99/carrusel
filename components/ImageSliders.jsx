@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ImgData } from '../components/imgData'
-import Image from 'next/image'
+// import Img from 'next/image'
 
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
 
@@ -29,7 +29,7 @@ const ImageSliders = ({ slides = [] }) => {
                         key={index}
                     >
                         {index === current && (
-                            <Image src={slide.image} alt='travel image' className='image' />
+                            <img src={slide.image} alt='travel image' className='image'/>
                         )}
                     </div>
                 );
